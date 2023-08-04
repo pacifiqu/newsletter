@@ -1,0 +1,114 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  color: hsl(231, 7%, 60%);
+  line-height: 1.6;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-wrapper {
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid hsl(235, 18%, 26%);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.error-msg {
+  color: hsl(4, 100%, 67%);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: hsl(4, 100%, 67%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: hsl(4, 90%, 60%);
+}
+
+.success-message {
+  display: none;
+  background-color: hsl(144, 70%, 90%);
+  border: 1px solid hsl(144, 28%, 80%);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.success-message h2 {
+  margin-top: 0;
+  color: hsl(4, 100%, 67%);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.success-message p {
+  margin-bottom: 15px;
+}
+
+.success-message button {
+  background-color: hsl(144, 70%, 60%);
+}
+
+.attribution {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: hsl(231, 7%, 60%);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+/* Centering Elements */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
